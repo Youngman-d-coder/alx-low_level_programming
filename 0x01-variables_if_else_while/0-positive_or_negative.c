@@ -5,9 +5,9 @@
 /**
  * main - main block
  *
- * description: Collects random data and states whether positive or negative
+ * Description: Collects random data and states whether positive or negative
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 
 int main(void)
