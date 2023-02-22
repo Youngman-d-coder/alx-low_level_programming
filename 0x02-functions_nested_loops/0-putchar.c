@@ -1,10 +1,7 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - code entry point 
- * Description: prints _putchar*
- * Return: returns 0 (success)
+ * main - code entry point
+ * Description: prints _putchar
  */
 int main(void)
 {
