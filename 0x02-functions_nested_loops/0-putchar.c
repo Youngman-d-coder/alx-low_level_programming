@@ -2,6 +2,7 @@
 /**
  * main - code entry point
  * Description: prints _putchar
+ * Return: 0 on success
  */
 int main(void)
 {
