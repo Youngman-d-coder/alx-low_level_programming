@@ -1,15 +1,19 @@
 #include "main.h"
 
 /**
- * main - entry function
- * Description: Tests if Positive or Negative
- * Return: always 0(success)
+ * main - Entry point
+ *
+ * Description: Tests if number is positive or negative
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int C;
+    int c;
 
-	C = 0;
-	positive_or_negative(C);
-	return (0);
+    c = 0;
+
+    positive_or_negative(c);
+
+    return (0);
 }
