@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - entry point of program
@@ -11,7 +12,7 @@ int main(void)
 {
 	char sent[60];
 
-	sent = "with proper grammar, but the outcome is a piece of art,";
+	strcpy(sent, "with proper grammar, but the outcome is a piece of art,");
 
 	printf("%s\n", sent);
 
