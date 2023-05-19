@@ -13,7 +13,7 @@ int main(void)
 
 	sent = "with proper grammar, but the outcome is a piece of art,";
 
-	printf("%s", sent);
+	printf("%s\n", sent);
 
 	return (0);
 }
