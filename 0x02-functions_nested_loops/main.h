@@ -5,4 +5,7 @@
 #include <stdio.h>
 
 
+/* prototypes */
+int _putchar(char c);
+
 #endif /* MAIN_H */
