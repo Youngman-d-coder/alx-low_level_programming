@@ -4,6 +4,7 @@
 /**
  * _islower - important program
  *
+ * @c: alphabets to test
  * Description: checks if alpha is lower
  *
  * Return: 1 if lower and zero if otherwise
