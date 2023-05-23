@@ -3,11 +3,7 @@
 /**
  * print_alphabet - entry point
  *
- * @alpha: contains alphabet characters
- *
  * Description: Prints the alphabets
- *
- * Return: zero on success
  */
 void print_alphabet(void)
 {
