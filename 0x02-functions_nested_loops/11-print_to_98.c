@@ -2,29 +2,39 @@
 
 /**
  * print_to_98 - prints numbers from any point towards 98
+ *
+ * @n: the number to print from
  */
 void print_to_98(int n)
 {
-	int m;
+	int H, L;
 
-	m = 98;
-
-	if (n != m)
+	if (n <= 98)
 	{
-		while (n < m)
+		for (L = n; L <= 98; L++)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
-			n++;
+			if (L != 98)
+			{
+				printf("%d, ", L);
+			}
+			else
+			{
+				printf("%d\n", L);
+			}
 		}
-
-		while (n > m)
+	}
+	else
+	{
+		for (H = n; H >= 98; H--)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
-			n--;
+			if (H != 98)
+			{
+				printf("%d, ", H);
+			}
+			else
+			{
+				printf("%d\n", H);
+			}
 		}
 	}
 }
