@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * nat_num - prints sum of the multiples of 3 and 5 below 1024
+ * main - Entry point
+ *
+ * Description: prints sum of the multiples of 3 and 5 below 1024
  *
  * Return: zero (0) on success
  */
-int nat_nums(void)
+int main(void)
 {
 	int n, m;
 
