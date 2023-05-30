@@ -9,6 +9,8 @@ void print_rev(char *s)
 {
 	int l, i;
 
+	l = 0;
+
 	if (*s == '\0')
 	{
 		return;
