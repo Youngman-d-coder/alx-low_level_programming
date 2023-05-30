@@ -11,11 +11,6 @@ void print_rev(char *s)
 
 	l = 0;
 
-	if (*s == '\0')
-	{
-		return;
-	}
-
 	while (*s != '\0')
 	{
 		l++;
