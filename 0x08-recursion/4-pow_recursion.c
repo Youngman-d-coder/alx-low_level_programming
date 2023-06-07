@@ -6,7 +6,7 @@
  * @x: value to be raised
  * @y: power to raise
  *
- * Return: -1 if y < 0, and 1 if is equal to 0, 
+ * Return: -1 if y < 0, and 1 if is equal to 0,
  * and the value of x raised by y on success
  */
 int _pow_recursion(int x, int y)
