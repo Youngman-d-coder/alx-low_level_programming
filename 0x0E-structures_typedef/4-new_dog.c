@@ -8,6 +8,8 @@
  * @age: age of dog
  *
  * @owner: name of owner
+ *
+ * Return: NULL if function fails, new_dog on success
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
