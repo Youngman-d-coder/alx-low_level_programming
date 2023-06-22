@@ -1,4 +1,4 @@
-#include "main.h"
+#include "function_pointers.h"
 
 /**
  * print_name - prints a name
@@ -11,8 +11,8 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	void (*print)(char *);
+	void (*log)(char *); /* initializing variable "log" */
 
-	print = f;
-	print(name);
+	log = f; /* assigning function f to log */
+	log(name); /* printing name with log */
 }
