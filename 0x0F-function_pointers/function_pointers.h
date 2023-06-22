@@ -2,10 +2,9 @@
 #define MAIN_H
 
 /* Libraries */
+#include <stddef.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
-#include <string.h>
+
 
 /* Portfolio */
 void print_name(char *name, void (*f)(char *));
