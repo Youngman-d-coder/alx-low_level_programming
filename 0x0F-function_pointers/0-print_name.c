@@ -11,8 +11,5 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	void (*log)(char *); /* initializing variable "log" */
-
-	log = f; /* assigning function f to log */
-	log(name); /* printing name with log */
+	f(name); /* printing name with log */
 }
