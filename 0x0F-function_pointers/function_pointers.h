@@ -2,7 +2,6 @@
 #define MAIN_H
 
 /* Libraries */
-#include <stddef.h>
 #include <stdio.h>
 
 
