@@ -5,7 +5,7 @@
  *
  * @array: array to be iterated through
  *
- * size: size of array
+ * @size: size of array
  *
  * @action: function to be called
  *
