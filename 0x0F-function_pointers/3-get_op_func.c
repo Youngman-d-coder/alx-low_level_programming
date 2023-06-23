@@ -20,19 +20,13 @@ int (*get_op_func(char *s))(int, int)
     };
     int i;
 
-    if (size != NULL && array != NULL && cmp != NULL)
+    for (i = 0; ops[i].op != NULL; i++)
     {
-	    for (i = 0; i < size; i++)
-	    {
-		    if (cmp(array[i]) != NULL)
-		    {
-			    break;
-		    }
-	    }
-	    if (i < size)
-	    {
-		    return (i);
-	    }
+        if (strcmp(ops[i].op, s) == 0)
+        {
+            return ops[i].f;
+        }
     }
-    return (-1);
+
+    return NULL;
 }
