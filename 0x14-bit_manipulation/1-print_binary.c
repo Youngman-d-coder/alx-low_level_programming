@@ -10,11 +10,11 @@ void print_binary(unsigned long int n)
 	{
 		if (n & cove)
 		{
-			_putchar('1');
+			putchar('1');
 			flag = 1;
 		}
 		else if (flag == 1 || cove == 1)
-			_putchar('0');
+			putchar('0');
 
 		cove >>= 1;
 	}
