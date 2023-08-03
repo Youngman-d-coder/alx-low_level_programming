@@ -27,7 +27,7 @@ void print_binary(unsigned long int n)
 		}
 		else if (flag == 1 || cove == 1)
 		{
-			/* Print a 0 if the current bitof n is 0 or if we have reached the end of cove */
+/*Print a 0 the current bitof n is 0 or if we have reached the end of cove*/
 			putchar('0');
 		}
 
