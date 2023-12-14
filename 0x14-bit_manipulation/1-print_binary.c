@@ -14,7 +14,6 @@ void print_binary(unsigned long int n)
 
 	/* Initialize cove to 1 followed by 7 0's */
 	cove = 1UL << ((sizeof(unsigned long int) * 8) - 1);
-	printf("%lu", cove);
 
 	/* Iterate through cove from right to left */
 	while (cove > 0)
