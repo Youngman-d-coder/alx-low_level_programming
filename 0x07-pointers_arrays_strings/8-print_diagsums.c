@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ptint_diagsums - prints the sum of the two diagonals of a square matrix.
+ * print_diagsums - prints the sum of the two diagonals of a square matrix.
  *
  * @a: pointer to square matrix.
  * @size: size of matrix.
