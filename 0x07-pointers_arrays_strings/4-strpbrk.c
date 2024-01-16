@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strbrk - locates first occurrence in string s in strig accept.
+ * _strpbrk - locates first occurrence in string s in strig accept.
  *
  * @s: pointer to string to search.
  * @accept: pointer to bytes to search for.
@@ -19,7 +19,7 @@ char *_strpbrk(char *s, char *accept)
 		while (*temp != '\0')
 		{
 			if (*s == *temp)
-				return s;
+				return (s);
 			temp++;
 		}
 		s++;

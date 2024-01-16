@@ -6,7 +6,7 @@
  * @s: pointer to the string to search.
  * @accept: pointer to set of bytes to search for.
  *
- * Return: Number of bytes in the initial 
+ * Return: Number of bytes in the initial
  * segment of s which consist only of
  * bytes from accept.
  */
